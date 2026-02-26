@@ -14,7 +14,6 @@ class Solution:
             if complement in seen:
                 return [seen[complement], i]
             seen[num] = i
-        return [-1, -1]  # Return an invalid index if no solution is found
-        
+        return [-1, -1] 
 # @lc code=end
 
